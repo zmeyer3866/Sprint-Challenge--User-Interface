@@ -112,6 +112,46 @@ p {
     justify-content: center;
 }
 
+#b1{
+    background-color: teal;
+}
+
+#b2{
+    background-color: gold;
+}
+
+#b3{
+    background-color: cadetblue;
+}
+
+#b4{
+    background-color: coral;
+}
+
+#b5{
+    background-color: crimson;
+}
+
+#b6{
+    background-color: forestgreen;
+}
+
+#b7{
+    background-color: darkorchid;
+}
+
+#b8{
+    background-color: hotpink;
+}
+
+#b9{
+    background-color: indigo;
+}
+
+#b10{
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +183,71 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*nav*/
+
+nav{
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 40px 1px;
+    font-size: 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    margin: 20px 0 30px 0;
+}
+
+/*about*/
+
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.top-two{
+    width: 48%;
+    padding: 5% 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.bottom-two{
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black
+}
+
+.work-together{
+    padding: 0 0 4% 0;
+}
+
+.header-about{
+    border-bottom: 1px dashed black;
+    padding: 0 0 25px 0;
+}
+
+.top-two h2{
+    padding: 10px 0 0 0;
+}
+
+.bottom-two h2{
+    padding: 10px 0 0 0;
 }
